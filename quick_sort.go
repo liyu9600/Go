@@ -3,19 +3,19 @@ package leetcode
 import "log"
 
 func sort(nums []int) []int {
-	quick_sort(nums, 0, len(nums)-1)
+	quickSort(nums, 0, len(nums)-1)
 	return nums
 }
 
-func quick_sort(nums []int, start, end int) {
+func quickSort(nums []int, start, end int) {
 
 	if start >= end {
 		return
 	}
 
 	p := partition(nums, start, end)
-	quick_sort(nums, start, p-1)
-	quick_sort(nums, p+1, end)
+	quickSort(nums, start, p-1)
+	quickSort(nums, p+1, end)
 }
 
 func partition(nums []int, start, end int) int {
