@@ -23,7 +23,7 @@ func search(nums []int, target int) int {
 
 		if nums[mid] >= nums[low] {
 
-			if nums[mid] > target && nums[low] <= target { // nums[low] <= target <= nums[mid]
+			if nums[mid] > target && nums[low] <= target { // nums[low] <= target < nums[mid]
 				high = mid - 1
 			} else {
 				low = mid + 1
