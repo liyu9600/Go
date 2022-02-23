@@ -1,6 +1,5 @@
 package leetcode
 
-import "log"
 
 func sort(nums []int) []int {
 	quickSort(nums, 0, len(nums)-1)
@@ -34,10 +33,4 @@ func partition(nums []int, start, end int) int {
 	nums[i], nums[end] = p, nums[i]
 
 	return i
-}
-
-func main() {
-	nums := []int{5, 2, 3, 1}
-
-	log.Println(sort(nums))
 }

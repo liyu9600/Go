@@ -1,9 +1,4 @@
-package main
-
-import (
-	"fmt"
-	"log"
-)
+package leetcode
 
 func shellSort(nums []int) []int {
 
@@ -27,9 +22,4 @@ func shellSort(nums []int) []int {
 	}
 
 	return nums
-}
-
-func main() {
-	test := []int{-2,3,-5}
-	fmt.Println(shellSort(test))
 }
