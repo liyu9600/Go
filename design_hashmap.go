@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 const mod int = 10000
 

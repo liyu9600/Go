@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 func kthLargestNumber(nums []string, k int) string {
 	if len(nums) == 1 {

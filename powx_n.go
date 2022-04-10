@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 /**
 输入：x = 2.00000, n = -2

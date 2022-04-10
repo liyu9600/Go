@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 func mergeSort(nums []int) []int {
 

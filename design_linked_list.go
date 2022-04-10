@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 type MyLinkedList struct {
 	Val  int

@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 //查找第一个值等于给定值的元素
 func bsearch(nums []int, target int) int {

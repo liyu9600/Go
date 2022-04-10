@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 func countingSort(nums []int) []int {
 

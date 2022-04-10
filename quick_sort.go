@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 
 func sort(nums []int) []int {
